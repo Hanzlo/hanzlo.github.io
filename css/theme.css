@@ -15,6 +15,14 @@
 .button:active, .button-secondary:active {
     margin: 2px 0 -2px 0;
 }
+
+#body-inner > h1 {
+
+margin-top: 5vh;
+margin-bottom: 5vh;
+
+}
+
 @font-face {
     font-family: 'Novacento Sans Wide';
     src: url("../fonts/Novecentosanswide-UltraLight-webfont.eot");
@@ -52,10 +60,10 @@ body #chapter h1 {
     }
 }
 a {
-    color: #00bdf3;
+    color: #1694CA;
 }
 a:hover {
-    color: #0082a7;
+    color:rgb(18, 54, 162);
 }
 pre {
     position: relative;
@@ -98,11 +106,13 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     box-shadow: inset 0 1px 3px rgba(0,0,0,.06),0 0 5px rgba(0,169,218,.7)
 }
 #header-wrapper {
-    background: #8451a1;
-    color: #fff;
-    text-align: center;
-    border-bottom: 4px solid #9c6fb6;
-    padding: 1rem;
+  background: #ffffff;
+      color: #fff;
+      text-align: center;
+      border-bottom: 4px solid #f25759;
+      padding: 1rem;
+      padding-bottom: 40px;
+      border-top: #f25759 solid 4px;
 }
 #header a {
     display: inline-block;
@@ -323,8 +333,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     min-height: 100%;
 }
 #body img, #body .video-container {
-    margin: 3rem auto;
-    display: block;
+
     text-align: center;
 }
 #body img.border, #body .video-container.border {
@@ -420,7 +429,17 @@ a:hover {
 }
 #body-inner {
     margin-bottom: 5rem;
-      margin-top: 4rem;
+      margin-top: 2.5rem;
+      background-color: rgba(255,255,255,0.91);
+padding-top: 15px;
+padding-right: 3%;
+padding-bottom: 15px;
+padding-left: 3%;
+border-left: thin solid rgba(239,239,239,0.53);
+border-right: thin solid rgba(239,239,239,0.55);
+border-bottom: thick solid rgba(241,87,89,1.00);
+border-top: thick solid rgba(241,87,89,1.00);
+border-radius: 4px;
 }
 #chapter {
     display: flex;
@@ -468,11 +487,14 @@ h2, h3, h4, h5, h6 {
     letter-spacing: -1px;
 }
 h1 {
-    font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    text-align: center;
-    text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0px;
+  font-family: 'Open Sans',sherif;
+  font-weight: 800;
+  text-transform: uppercase;
     color: #222;
-    font-weight: 200;
+    font-size: 3.25rem;
+
 }
 blockquote {
     border-left: 10px solid #F0F2F4;
@@ -629,40 +651,6 @@ section.attachments.grey .attachments-files {
     margin-top: 5px;
 }
 
-code, kbd, pre, samp {
-    font-family: "Consolas", menlo, monospace;
-    font-size: 92%;
-}
-code {
-    border-radius: 2px;
-    white-space: nowrap;
-    padding: 0px 2px;
-}
-code + .copy-to-clipboard {
-    margin-left: -1px;
-    border-left: 0 !important;
-    font-size: inherit !important;
-    vertical-align: middle;
-    height: 21px;
-    top: 0;
-}
-pre {
-    padding: 1rem;
-    margin: 2rem 0;
-    background: #1d1f21;
-    border: 0;
-    border-radius: 2px;
-    line-height: 1.15;
-}
-pre code {
-    color: whitesmoke;
-    background: inherit;
-    white-space: inherit;
-    border: 0;
-    padding: 0;
-    margin: 0;
-    font-size: 15px;
-}
 hr {
     border-bottom: 4px solid #F0F2F4;
 }
@@ -991,11 +979,12 @@ td {
     background: #34495E;
 }
 #top-bar {
-    background: #F6F6F6;
-    border-radius: 2px;
-    padding: 0 1rem;
-    height: 0;
-    min-height: 3rem;
+  background: #FFFFFF;
+  border-radius: 2px;
+  padding: 0 1rem;
+  height: 0;
+  min-height: 3rem;
+  border-top: thick solid rgba(241,87,89,1.00);
 }
 #top-github-link {
     position: relative;

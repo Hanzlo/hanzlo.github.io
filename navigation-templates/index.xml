@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bootstrap Navigation Templates on Bootstrap Starter UI Kit</title>
+    <title>Bootstrap Nav Templates on Bootstrap Starter UI Kit</title>
     <link>https://hanzlo.github.io/navigation-templates/</link>
-    <description>Recent content in Bootstrap Navigation Templates on Bootstrap Starter UI Kit</description>
+    <description>Recent content in Bootstrap Nav Templates on Bootstrap Starter UI Kit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Apr 2018 09:28:29 +0200</lastBuildDate>
@@ -12,21 +12,42 @@
     
     
     <item>
+      <title>Navbar Left &amp; Right</title>
+      <link>https://hanzlo.github.io/navigation-templates/navbar-left-right/</link>
+      <pubDate>Sat, 21 Apr 2018 09:27:32 +0200</pubDate>
+      
+      <guid>https://hanzlo.github.io/navigation-templates/navbar-left-right/</guid>
+      <description>LOGO   Home (current)  Features  Pricing   Dropdown  Action Another action   Login  Register       LOGO   Home (current)  Features  Pricing   Dropdown  Action Another action   Login  Register        COPY CODE</description>
+    </item>
+    
+    <item>
       <title>Navbar Left Align</title>
       <link>https://hanzlo.github.io/navigation-templates/navbar-left-align/</link>
       <pubDate>Sat, 21 Apr 2018 09:27:32 +0200</pubDate>
       
       <guid>https://hanzlo.github.io/navigation-templates/navbar-left-align/</guid>
-      <description>Navbar   Dropdown  Action Another action   Login  Register       &amp;lt;nav class=&amp;quot;navbar navbar-expand-lg navbar-light bg-faded&amp;quot;&amp;gt; &amp;lt;a class=&amp;quot;navbar-brand&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt;Navbar&amp;lt;/a&amp;gt; &amp;lt;button class=&amp;quot;navbar-toggler&amp;quot; type=&amp;quot;button&amp;quot; data-toggle=&amp;quot;collapse&amp;quot; data-target=&amp;quot;#navbarNavDropdown&amp;quot; aria-controls=&amp;quot;navbarNavDropdown&amp;quot; aria-expanded=&amp;quot;false&amp;quot; aria-label=&amp;quot;Toggle navigation&amp;quot;&amp;gt; &amp;lt;span class=&amp;quot;navbar-toggler-icon&amp;quot;&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;/button&amp;gt; &amp;lt;div id=&amp;quot;navbarNavDropdown&amp;quot; class=&amp;quot;navbar-collapse collapse&amp;quot;&amp;gt; &amp;lt;ul class=&amp;quot;navbar-nav mr-end&amp;quot;&amp;gt; &amp;lt;li class=&amp;quot;nav-item dropdown&amp;quot;&amp;gt; &amp;lt;a class=&amp;quot;nav-link dropdown-toggle&amp;quot; href=&amp;quot;#&amp;quot; data-toggle=&amp;quot;dropdown&amp;quot; aria-haspopup=&amp;quot;true&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt; Dropdown &amp;lt;/a&amp;gt; &amp;lt;div class=&amp;quot;dropdown-menu&amp;quot; aria-labelledby=&amp;quot;navbarDropdownMenuLink&amp;quot;&amp;gt; &amp;lt;a class=&amp;quot;dropdown-item&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt;Action&amp;lt;/a&amp;gt; &amp;lt;a class=&amp;quot;dropdown-item&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt;Another action&amp;lt;/a&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;nav-item&amp;quot;&amp;gt; &amp;lt;a class=&amp;quot;nav-link&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt;Login&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;nav-item&amp;quot;&amp;gt; &amp;lt;a class=&amp;quot;nav-link&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt;Register&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/nav&amp;gt;    DEMO   DOWNLOAD</description>
+      <description>LOGO   Dropdown  Action Another action   Login  Register      LOGO   Dropdown  Action Another action   Login  Register        COPY CODE</description>
     </item>
     
     <item>
-      <title>Start</title>
-      <link>https://hanzlo.github.io/navigation-templates/start/</link>
+      <title>Navbar Logo Center</title>
+      <link>https://hanzlo.github.io/navigation-templates/navbar-logo-center/</link>
       <pubDate>Sat, 21 Apr 2018 09:27:32 +0200</pubDate>
       
-      <guid>https://hanzlo.github.io/navigation-templates/start/</guid>
-      <description></description>
+      <guid>https://hanzlo.github.io/navigation-templates/navbar-logo-center/</guid>
+      <description>Left  Link  Link    LOGO    Right  Link       Left  Bootstrap UI  Link  Link  Link    LOGO    Right  Link        COPY CODE</description>
+    </item>
+    
+    <item>
+      <title>Navbar Right Align</title>
+      <link>https://hanzlo.github.io/navigation-templates/navbar-right-align/</link>
+      <pubDate>Sat, 21 Apr 2018 09:27:32 +0200</pubDate>
+      
+      <guid>https://hanzlo.github.io/navigation-templates/navbar-right-align/</guid>
+      <description>Company   
+Home(current)  About us  Products  Contact  
+     Company   
+Home(current)  About us  Our oil  Contact         COPY CODE</description>
     </item>
     
   </channel>

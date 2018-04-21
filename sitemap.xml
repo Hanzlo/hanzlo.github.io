@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hanzlo.github.io/carousel-template/carousel-default/</loc>
+    <lastmod>2018-04-21T12:27:32+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hanzlo.github.io/navigation-templates/</loc>
     <lastmod>2018-04-21T09:28:29+02:00</lastmod>
   </url>
@@ -13,13 +18,28 @@
   </url>
   
   <url>
+    <loc>https://hanzlo.github.io/navigation-templates/navbar-left-right/</loc>
+    <lastmod>2018-04-21T09:27:32+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hanzlo.github.io/navigation-templates/navbar-left-align/</loc>
     <lastmod>2018-04-21T09:27:32+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hanzlo.github.io/navigation-templates/start/</loc>
+    <loc>https://hanzlo.github.io/navigation-templates/navbar-logo-center/</loc>
     <lastmod>2018-04-21T09:27:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hanzlo.github.io/navigation-templates/navbar-right-align/</loc>
+    <lastmod>2018-04-21T09:27:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hanzlo.github.io/carousel-template/</loc>
+    <lastmod>2018-04-21T08:28:29+02:00</lastmod>
   </url>
   
   <url>

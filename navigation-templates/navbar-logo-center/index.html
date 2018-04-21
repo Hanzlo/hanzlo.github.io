@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Navbar Left Align :: Bootstrap Starter UI Kit</title>
+    <title>Navbar Logo Center :: Bootstrap Starter UI Kit</title>
 
     
 
@@ -36,7 +36,7 @@
     
 
   </head>
-  <body class="" data-url="/navigation-templates/navbar-left-align/">
+  <body class="" data-url="/navigation-templates/navbar-logo-center/">
     <nav id="sidebar" class="">
 
 
@@ -111,7 +111,7 @@
  
   
     
-      <li data-nav-id="/navigation-templates/navbar-left-align/" title="Navbar Left Align" class="dd-item active">
+      <li data-nav-id="/navigation-templates/navbar-left-align/" title="Navbar Left Align" class="dd-item ">
         <a href="/navigation-templates/navbar-left-align/">
         Navbar Left Align
         
@@ -130,7 +130,7 @@
  
   
     
-      <li data-nav-id="/navigation-templates/navbar-logo-center/" title="Navbar Logo Center" class="dd-item ">
+      <li data-nav-id="/navigation-templates/navbar-logo-center/" title="Navbar Logo Center" class="dd-item active">
         <a href="/navigation-templates/navbar-logo-center/">
         Navbar Logo Center
         
@@ -267,7 +267,7 @@
             
           
           
-            <a href='/'>Home</a> <i class='fas fa-angle-right'></i> <a href='/navigation-templates/'>Bootstrap Nav Templates</a> <i class='fas fa-angle-right'></i> Navbar Left Align
+            <a href='/'>Home</a> <i class='fas fa-angle-right'></i> <a href='/navigation-templates/'>Bootstrap Nav Templates</a> <i class='fas fa-angle-right'></i> Navbar Logo Center
           
         
           
@@ -314,72 +314,78 @@
         
         <div id="body-inner">
           
-            <h1>Navbar Left Align</h1>
+            <h1>Navbar Logo Center</h1>
           
 
         
 
 
 <p><code>
-<div class=" container-example">
-      <nav class="navbar navbar-expand-lg navbar-light bg-faded">
-        <a class="navbar-brand" href="https://bootstrap-ui.netlify.com/"><img src="/images/logodark.fw.png"  width="50" class="img-fluid"> LOGO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navbarNavDropdown" class="navbar-collapse collapse">
-            <ul class="navbar-nav mr-end">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="https://bootstrap-ui.netlify.com/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
-                </li>
-            </ul>
-        </div>
-    </nav></div>
+<div class="container-example">
+<nav class="navbar navbar-expand-md navbar-light">
+<div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+<ul class="navbar-nav mr-auto">
+ <li class="nav-item active"> <a class="nav-link" href="https://bootstrap-ui.netlify.com/">Left</a> </li>
+ <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
+ <li class="nav-item"> <a class="nav-link" href="https://bootstrap-ui.netlify.com/">Link</a> </li>
+</ul>
+</div>
+<div class="mx-auto order-0">    <a class="navbar-brand" href="https://bootstrap-ui.netlify.com/"><img src="/images/logodark.fw.png"  width="50" class="img-fluid"> LOGO</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2"> <span class="navbar-toggler-icon"></span> </button>
+</div>
+<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+<ul class="navbar-nav ml-auto">
+ <li class="nav-item"> <a class="nav-link" href="#">Right</a> </li>
+ <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
+</ul>
+</div>
+</nav>
+</div>
 </code>
 <br></p>
 
-<p><textarea id="left-navbar" readonly class="code-box">
-<nav class="navbar navbar-expand-lg navbar-light bg-faded">
-     <a class="navbar-brand" href="https://bootstrap-ui.netlify.com/"><img src="/images/logodark.fw.png"  width="50" class="img-fluid"> LOGO</a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-             </button>
-     <div id="navbarNavDropdown" class="navbar-collapse collapse">
-             <ul class="navbar-nav mr-end">
-                     <li class="nav-item dropdown">
-                             <a class="nav-link dropdown-toggle" href="https://bootstrap-ui.netlify.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                         Dropdown
-                                     </a>
-                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                     <a class="dropdown-item" href="#">Action</a>
-                                     <a class="dropdown-item" href="#">Another action</a>
-                             </div>
-                     </li>
-                     <li class="nav-item">
-                             <a class="nav-link" href="#">Login</a>
-                     </li>
-                     <li class="nav-item">
-                             <a class="nav-link" href="#">Register</a>
-                     </li>
-             </ul>
-     </div>
-</nav>
+<p><textarea id="logo-mid-navbar" readonly class="code-box">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+<div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                        <a class="nav-link" href="#">Left</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="https://bootstrap-ui.netlify.com/">Bootstrap UI</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                </li>
+        </ul>
+</div>
+<div class="mx-auto order-0">
+             <a class="navbar-brand" href="https://bootstrap-ui.netlify.com/"><img src="/images/logodark.fw.png"  width="50" class="img-fluid"> LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+</div>
+<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Right</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                </li>
+        </ul>
+</div>
+            </nav>
 </textarea>
 <code>
 <div align="right">
-  <button class="btn clip-btn" data-clipboard-target="#left-navbar"> <i class="far fa-copy"></i> COPY CODE </button>
+  <button class="btn clip-btn" data-clipboard-target="#logo-mid-navbar"> <i class="far fa-copy"></i> COPY CODE </button>
 </div></p>
 
 <p></code></p>
@@ -454,6 +460,22 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -485,22 +507,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -543,10 +549,10 @@
 
 
         
-            <a class="nav nav-prev" href="/navigation-templates/navbar-left-right/" title="Navbar Left &amp; Right"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/navigation-templates/navbar-left-align/" title="Navbar Left Align"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/navigation-templates/navbar-logo-center/" title="Navbar Logo Center" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/navigation-templates/navbar-right-align/" title="Navbar Right Align" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

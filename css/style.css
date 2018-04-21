@@ -2,12 +2,11 @@
 /* CSS Document */
 body {
 
-    background-color: lightsteelblue;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-
-
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: #163967;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, #cbdece 0%, #adcbff 100%);
 }
 
 .profile-box {
@@ -188,14 +187,18 @@ body {
 .bmc-button {
     font-size: 12px !important;
 }
+.carousel-caption > h3 {
 
+color: white !important;
+
+}
 .code-box {
     width: 100%;
     overflow-x: scroll;
     overflow-y: scroll;
     margin-top: 30px;
     background-color: rgba(234,243,253,1.00);
-    min-height: 325px;
+    min-height: 450px;
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
