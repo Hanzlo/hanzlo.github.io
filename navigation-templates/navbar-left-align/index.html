@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Home :: Bootstrap Starter UI Kit</title>
+    <title>Navbar Left Align :: Bootstrap Starter UI Kit</title>
 
     
 
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/">
+  <body class="" data-url="/navigation-templates/navbar-left-align/">
     <nav id="sidebar" class="">
 
 
@@ -76,7 +76,7 @@
   
     
     <li data-nav-id="/navigation-templates/" title="Bootstrap Navigation Templates" class="dd-item 
-        
+        parent
         
         
         ">
@@ -100,7 +100,7 @@
  
   
     
-      <li data-nav-id="/navigation-templates/navbar-left-align/" title="Navbar Left Align" class="dd-item ">
+      <li data-nav-id="/navigation-templates/navbar-left-align/" title="Navbar Left Align" class="dd-item active">
         <a href="/navigation-templates/navbar-left-align/">
         Navbar Left Align
         
@@ -161,30 +161,134 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Home</a> <i class='fas fa-angle-right'></i> <a href='/navigation-templates/'>Bootstrap Navigation Templates</a> <i class='fas fa-angle-right'></i> Navbar Left Align
+          
+        
+          
+        
+          
+        
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
 
         
         <div id="body-inner">
           
+            <h1>Navbar Left Align</h1>
+          
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fa fa-bars"></i> navigation</a>
-</span>
 
-           
+<p><code>
+<div class="container-fluid container-example">
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNavDropdown" class="navbar-collapse collapse">
+            <ul class="navbar-nav mr-end">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+ </div>
+</code>
+<br></p>
+
+<pre><code class="language-html">&lt;nav class=&quot;navbar navbar-expand-lg navbar-light bg-faded&quot;&gt;
+    &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;Navbar&lt;/a&gt;
+    &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarNavDropdown&quot;
+            aria-controls=&quot;navbarNavDropdown&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+            &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+    &lt;div id=&quot;navbarNavDropdown&quot; class=&quot;navbar-collapse collapse&quot;&gt;
+        &lt;ul class=&quot;navbar-nav mr-end&quot;&gt;
+            &lt;li class=&quot;nav-item dropdown&quot;&gt;
+                &lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;#&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                      Dropdown
+                    &lt;/a&gt;
+                &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;navbarDropdownMenuLink&quot;&gt;
+                    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;nav-item&quot;&gt;
+                &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Login&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;nav-item&quot;&gt;
+                &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Register&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;
+</code></pre>
+
+<p><code>
+<div align="right"> <a style="color: black" href="carousel-premium-demo.html" class="btn"><i class="fas fa-eye"></i> DEMO </a>
+  <a href="caro-premium.zip" class="btn"><i class="fas fa-download"></i> DOWNLOAD </a>
+</div>
+</code></p>
+
+
+<footer class=" footline" >
 	
-		<h1>Customize your own home page</h1>
-		<p>
-		  The site is working. Don't forget to customize this homepage with your own. You typically have 3 choices :
-		</p>
-		<ul>
-			<li><b>1. </b> Create an _index.md document in <b>content</b> folder and fill it with Markdown content</li>
-			<li><b>2. </b> Create an <b>index.html</b> file in the <b>static</b> folder and fill the file with HTML content</li>
-		  <li><b>3. </b> Configure your server to automatically redirect home page to one your documentation page</li>
-		</ul>
-	
-  
+</footer>
+
+
         
         </div>
         
@@ -216,8 +320,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -232,6 +334,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -248,6 +351,9 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -269,8 +375,10 @@
 
 
         
+            <a class="nav nav-prev" href="/navigation-templates/" title="Bootstrap Navigation Templates"> <i class="fa fa-chevron-left"></i></a>
         
-            <a class="nav nav-next" href="/navigation-templates/" title="Bootstrap Navigation Templates" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+            <a class="nav nav-next" href="/navigation-templates/start/" title="Start" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
