@@ -166,17 +166,16 @@ body {
     color: #1777AC;}
 
 .tab-content {
-    background-color: rgba(255,255,255,0.91);
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    margin-top: 35px;
-    border-left: thin solid rgba(239,239,239,0.53);
-    border-right: thin solid rgba(239,239,239,0.55);
-    border-bottom: thick solid rgba(241,87,89,1.00);
-    border-top: thick solid rgba(241,87,89,1.00);
-    border-radius: 4px;
+  /* background-color: rgba(255,255,255,0.91); */
+  /* padding-top: 15px; */
+  /* padding-right: 15px; */
+  /* padding-bottom: 15px; */
+  /* padding-left: 15px; */
+  /* border-left: thin solid rgba(239,239,239,0.53); */
+  /* border-right: thin solid rgba(239,239,239,0.55); */
+  /* border-bottom: thick solid rgba(241,87,89,1.00); */
+  /* border-top: thick solid rgba(241,87,89,1.00); */
+  /* border-radius: 4px; */
 }
 
 .nav-link.active {
@@ -328,7 +327,11 @@ header {
 .nav-link-second:hover {
     background-color: aliceblue;
 }
+.pills-nav-css{
 
+    padding-top: 5vh;
+
+}
 .dropdown-menu {
     z-index: 9999;
     border-radius: 0px;
@@ -344,4 +347,9 @@ header {
     -webkit-box-shadow: 2px 2px 9px rgba(85,85,85,1.00);
     box-shadow: 2px 2px 9px rgba(85,85,85,1.00);
     text-shadow: 1px 1px rgba(115,115,115,1.00);
+}
+.nav-link.disabled {
+
+color: rgb(218, 218, 218) !important;
+
 }

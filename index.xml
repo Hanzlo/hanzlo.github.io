@@ -14,7 +14,7 @@
     <item>
       <title>Carousel Fade Bootstrap</title>
       <link>https://hanzlo.github.io/carousel-template/carousel-default/</link>
-      <pubDate>Sat, 21 Apr 2018 12:27:32 +0200</pubDate>
+      <pubDate>Sat, 21 Apr 2018 16:27:32 +0200</pubDate>
       
       <guid>https://hanzlo.github.io/carousel-template/carousel-default/</guid>
       <description>THIS IS CAPTION TITLE SUBTITLE FOR THIS CAPTION
@@ -23,6 +23,38 @@
    Previous   Next       THIS IS CAPTION TITLE SUBTITLE FOR THIS CAPTION
    THIS IS CAPTION TITLE SUBTITLE FOR THIS CAPTION
    THIS IS CAPTION TITLE SUBTITLE FOR THIS CAPTION</description>
+    </item>
+    
+    <item>
+      <title>Fixed Caption Carousel</title>
+      <link>https://hanzlo.github.io/carousel-template/fixed-caption/</link>
+      <pubDate>Sat, 21 Apr 2018 14:27:32 +0200</pubDate>
+      
+      <guid>https://hanzlo.github.io/carousel-template/fixed-caption/</guid>
+      <description>THIS IS CAPTION TITLE SUBTITLE FOR THIS CAPTION
+   Previous   Next HTML  CSS  Javascript          THIS IS CAPTION TITLE SUBTITLE FOR THIS CAPTION
+   Previous   Next      COPY CODE</description>
+    </item>
+    
+    <item>
+      <title>Fullscreen Carousel</title>
+      <link>https://hanzlo.github.io/carousel-template/fullscreen-carousel/</link>
+      <pubDate>Sat, 21 Apr 2018 14:27:32 +0200</pubDate>
+      
+      <guid>https://hanzlo.github.io/carousel-template/fullscreen-carousel/</guid>
+      <description>THIS IS CAPTION TITLE SUBTITLE FOR THIS CAPTION
+  Previous   Next   HTML  CSS  JavaScript          THIS IS CAPTION TITLE SUBTITLE FOR THIS CAPTION
+  Previous   Next      COPY CODE    .full-screen { background-size: cover; background-position: center; background-repeat: no-repeat;}   COPY CODE</description>
+    </item>
+    
+    <item>
+      <title>Premium Carousel</title>
+      <link>https://hanzlo.github.io/carousel-template/premium-carousel/</link>
+      <pubDate>Sat, 21 Apr 2018 14:27:32 +0200</pubDate>
+      
+      <guid>https://hanzlo.github.io/carousel-template/premium-carousel/</guid>
+      <description>HTML  CSS  JavaScript      Your
+MAIN CAROUSEL TITLE  Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  Rates and Prices Special offers   Fast and precise Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</description>
     </item>
     
     <item>

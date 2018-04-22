@@ -377,7 +377,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
         display: table;
     }
 }
-#body .nav {
+#body .navlr {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -388,12 +388,12 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     display: table;
     text-align: center;
 }
-#body .nav > i {
+#body .navlr > i {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
 }
-#body .nav:hover > i {
+#body .navlr:hover > i {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -404,7 +404,7 @@ a:hover {
   text-decoration: none;
 }
 @media only all and (max-width: 59.938em) {
-    #body .nav {
+    #body .navlr {
         display: table-cell;
         position: static;
         top: auto;
@@ -414,17 +414,17 @@ a:hover {
         line-height: 100px;
         padding-top: 0;
     }
-    #body .nav > i {
+    #body .navlr > i {
         display: inline-block;
     }
 }
-#body .nav:hover {
+#body .navlr:hover {
     background: #F6F6F6;
 }
-#body .nav.nav-pref {
+#body .navlr.nav-pref {
     left: 0;
 }
-#body .nav.nav-next {
+#body .navlr.nav-next {
     right: 0;
 }
 #body-inner {
