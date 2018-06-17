@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="generator" content="Hugo 0.39" />
-<title>Bootstrap Nav Templates :: Bootstrap Starter UI Kit</title>
+<title>Vertical Tabs Styled :: Bootstrap Starter UI Kit</title>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117929181-2"></script>
 <script>
@@ -38,11 +38,11 @@
 </script>
 <meta name="description" content="">
 
-<link rel="stylesheet" href="" />
+<link rel="stylesheet" href="/css/vertical-tabs2.css" />
 
     
   </head>
-  <body data-url="/navigation-templates/">
+  <body data-url="/vertical-tabs/vertical-tabs-default-styled/">
     
       <header>
 
@@ -88,11 +88,10 @@
 
   <aside>
     <ul class="menu">
-    <li data-nav-id="/navigation-templates/" class="dd-item parent active haschildren
+    <li data-nav-id="/navigation-templates/" class="dd-item haschildren
         ">
       <div>
-      <a href="/navigation-templates/">Bootstrap Nav Templates</a>
-            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      <a href="/navigation-templates/">Bootstrap Nav Templates</a><i class="fa fa-angle-right fa-lg category-icon"></i>
       </div>
         <ul>
       <li data-nav-id="/navigation-templates/navbar-left-right/" class="dd-item">
@@ -190,10 +189,11 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/vertical-tabs/" class="dd-item haschildren
+    <li data-nav-id="/vertical-tabs/" class="dd-item parent haschildren
         ">
       <div>
-      <a href="/vertical-tabs/">Bootstrap Vertical Tabs&amp;Pils</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      <a href="/vertical-tabs/">Bootstrap Vertical Tabs&amp;Pils</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
       <li data-nav-id="/vertical-tabs/dropdown-tabs/" class="dd-item">
@@ -224,7 +224,7 @@
           </a>
         </div>
     </li>
-      <li data-nav-id="/vertical-tabs/vertical-tabs-default-styled/" class="dd-item">
+      <li data-nav-id="/vertical-tabs/vertical-tabs-default-styled/" class="dd-item active">
         <div>
           <a href="/vertical-tabs/vertical-tabs-default-styled/">
             Vertical Tabs Styled
@@ -248,19 +248,20 @@
       <center>Navigation :
         <select onchange="javascript:location.href = this.value;">
           
-    <option value="/navigation-templates/"  selected>
-   Bootstrap Nav Templates</option> 
-      <option value="/navigation-templates/navbar-left-right/" >- Navbar Left &amp; Right</option>
-      <option value="/navigation-templates/navbar-left-align/" >- Navbar Left Align</option>
-      <option value="/navigation-templates/navbar-logo-center/" >- Navbar Logo Center</option>
-      <option value="/navigation-templates/navbar-right-align/" >- Navbar Right Align</option>
-  
+    <option value="/navigation-templates/" >
+   Bootstrap Nav Templates</option>
     <option value="/carousel-template/" >
    Bootstrap Carousel Templates</option>
     <option value="/gallery-with-tabs/" >
    Bootstrap Gallery with Tabs</option>
     <option value="/vertical-tabs/" >
-   Bootstrap Vertical Tabs&amp;Pils</option>
+   Bootstrap Vertical Tabs&amp;Pils</option> 
+      <option value="/vertical-tabs/dropdown-tabs/" >- Tabs with Dropdown Menu</option>
+      <option value="/vertical-tabs/vertical-tabs-default/" >- Vertical Tabs</option>
+      <option value="/vertical-tabs/vertical-tabs-dark/" >- Vertical Tabs Dark Table</option>
+      <option value="/vertical-tabs/vertical-tabs-light/" >- Vertical Tabs Light Table</option>
+      <option value="/vertical-tabs/vertical-tabs-default-styled/"  selected>- Vertical Tabs Styled</option>
+  
 
 
 
@@ -269,14 +270,179 @@
     </div>
 
 
-    <h1>Bootstrap Nav Templates</h1>
+    <h1>Vertical Tabs Styled</h1>
 
     
     
     
+    <p><code>
+      <div style="background-color: #efefef;padding-left:2%; padding-right:2%;" class="container-fluid">
+        <div class="pills-container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home"
+                            aria-selected="true">Home</a>
+                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile"
+                            aria-selected="false">Profile</a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                            aria-selected="false">Messages</a>
+                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
+                            aria-selected="false">Settings</a>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                            make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged.
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                            make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged.
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                            make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged.
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                            make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</code>
+<br>
+<ul class="nav pills-nav-css  nav-pills mb-3" id="pills-tab" role="tablist">
+    <li style="margin-right: 25px;" class="nav-item">
+        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">HTML</a>
+    </li>
+    <li style="margin-right: 25px;" class="nav-item">
+        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">CSS</a>
+    </li>
+    <li  class="nav-item">
+        <a style="color:#e9e9e9 !important" class="nav-link disabled" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">JavaScript</a>
+    </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <textarea id="fixed-caption" class="code-box">
+                <div class="container">
+        <div class="pills-container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home"
+                            aria-selected="true">Home</a>
+                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile"
+                            aria-selected="false">Profile</a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                            aria-selected="false">Messages</a>
+                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
+                            aria-selected="false">Settings</a>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                            make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged.
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                            make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged.
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                            make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged.
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                            make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </textarea>
+        <code>
+<div align="right">
+  <button class="btn clip-btn" data-clipboard-target="#fixed-caption"> <i class="far fa-copy"></i> COPY CODE </button></div>
+</code>
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+<textarea id="full-css" class="code-box">
+        body a,
+        body .btn {
+            -moz-transition: all 0.3s!important;
+            -o-transition: all 0.3s!important;
+            -webkit-transition: all 0.3s!important;
+            transition: all 0.3s!important;
+            font-family: &lsquo;Montserrat&rsquo;, sans-serif!important;
+        }
+        .pills-container {
+            padding-top: 2%!important;
+            padding-bottom: 2%!important;
+        }
+        .nav-pills .nav-link.active,
+        .nav-pills .show&gt;.nav-link {
+            color: #040f2f!important;
+            background-color: #f7f7f7;
+            font-weight: 500!important;
+            border-right: solid 3px darkslategrey!important;
+            border-radius: 0px!important;
+        }
+        .nav-pills&gt;a {
+            color: #c8c8c8!important;
+            font-weight: 500!important;
+        }
+        .tab-pane {
+            color: #777777!important;
+            font-family: &lsquo;Montserrat&rsquo;!important;
+            margin-top: -5px!important;
+        }
+        @media screen and (max-width:764px) {
+            .tab-pane {
+                margin-top: 5px !important;
+            }
+        }
+ </textarea>
+<code>
+<div align="right">
+  <button class="btn clip-btn" data-clipboard-target="#full-css"> <i class="far fa-copy"></i> COPY CODE </button></div>
+</code>
+</div></p>
 
-<p>Here you can find some examples of bootstrap navigation bars</p>
-
+<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+    <textarea id="full-js" class="code-box">
+    </textarea>
+<code>
+    <div align="right">
+        <button class="btn clip-btn" data-clipboard-target="#full-js"> <i class="far fa-copy"></i> COPY CODE </button>
+    </div>
+</code>
+</div>
+</div>
 
 
     

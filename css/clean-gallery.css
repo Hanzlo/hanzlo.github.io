@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body a,
+        body .btn {
+            -moz-transition: all 0.3s!important;
+            -o-transition: all 0.3s!important;
+            -webkit-transition: all 0.3s!important;
+            transition: all 0.3s!important;
+            font-family: 'Montserrat', sans-serif!important;
+        }
+
+        .nav-tabs>li>a {
+            margin-right: 2px!important;
+            line-height: 1.42857143!important;
+            border-radius: 4px 4px 0 0!important;
+            text-transform: uppercase!important;
+            color: #5b9ee6 !important;
+            font-weight: inherit !important;
+        }
+
+        .nav-tabs>li>a:hover {
+            border-color: #eee #eee #ddd
+        }
+
+        .nav-tabs>li.active>a,
+        .nav-tabs>li.active>a:focus,
+        .nav-tabs>li.active>a:hover {
+
+            color: #FFFFFF!important;
+            cursor: default!important;
+            background-color: #00C0FF !important;
+            font-weight: 500!important;
+            border: 1px solid #016da8 !important;
+            border-radius: 20px!important;
+            text-transform: uppercase!important;
+            -webkit-box-shadow: 1px 1px 1px 0px rgba(233, 233, 233, 1.00)!important;
+            box-shadow: 1px 1px 1px 0px rgba(233, 233, 233, 1.00)!important;
+        }
+
+        .nav>li>a:hover,
+        .nav>li>a:focus {
+            text-decoration: none!important;
+            border: 1px solid #016da8 !important;
+            border-radius: 20px!important;
+        }
+
+        .tab-content {
+            margin-top: 50px!important;
+            margin-bottom: 30px!important;
+        }
+
+        .nav-tabs {
+            border-bottom: none !important;
+        }
+
+        .nav-tabs .nav-link.active {
+            border: 1px solid #016da8 !important;
+            border-radius: 20px!important;
+        }
+
+        .tab-pane>.row {
+
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+        }
+
+        .image-box-css>a {
+
+            padding-bottom: 15px!important;
+        }

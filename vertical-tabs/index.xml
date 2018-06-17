@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bootstrap Vertical Tabs&amp;Pils on Bootstrap Starter UI Kit</title>
+    <link>https://hanzlo.github.io/vertical-tabs/</link>
+    <description>Recent content in Bootstrap Vertical Tabs&amp;Pils on Bootstrap Starter UI Kit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Apr 2018 08:28:29 +0200</lastBuildDate>
+    
+	<atom:link href="https://hanzlo.github.io/vertical-tabs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tabs with Dropdown Menu</title>
+      <link>https://hanzlo.github.io/vertical-tabs/dropdown-tabs/</link>
+      <pubDate>Sat, 21 Apr 2018 16:27:32 +0200</pubDate>
+      
+      <guid>https://hanzlo.github.io/vertical-tabs/dropdown-tabs/</guid>
+      <description>Product Informations  Action  Another action  Something else here  Separated link       Model Mark II     Power Core: Palladium Arc Reactor Mark II    Armor Features: Armor Gauntlet   Weapons: Repulsors (Repulsion Mark I)       Model Mark IV     Power Core: Palladium Arc Reactor Mark III   Armor Features: Super-Strength   Weapons: Unibeam (Chest Repulsor)     Lorem Ipsum is simply dummy text of the printing and typesetting industry.</description>
+    </item>
+    
+    <item>
+      <title>Vertical Tabs</title>
+      <link>https://hanzlo.github.io/vertical-tabs/vertical-tabs-default/</link>
+      <pubDate>Sat, 21 Apr 2018 16:27:32 +0200</pubDate>
+      
+      <guid>https://hanzlo.github.io/vertical-tabs/vertical-tabs-default/</guid>
+      <description>Home Profile Messages Settings   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
+    </item>
+    
+    <item>
+      <title>Vertical Tabs Dark Table</title>
+      <link>https://hanzlo.github.io/vertical-tabs/vertical-tabs-dark/</link>
+      <pubDate>Sat, 21 Apr 2018 16:27:32 +0200</pubDate>
+      
+      <guid>https://hanzlo.github.io/vertical-tabs/vertical-tabs-dark/</guid>
+      <description>Home Profile Messages Settings     # First Last Handle     1 Mark Otto @mdo   2 Jacob Thornton @fat   3 Larry the Bird @twitter       # First Last Handle     1 Mark Otto @mdo   2 Jacob Thornton @fat   3 Larry the Bird @twitter     Lorem Ipsum is simply dummy text of the printing and typesetting industry.</description>
+    </item>
+    
+    <item>
+      <title>Vertical Tabs Light Table</title>
+      <link>https://hanzlo.github.io/vertical-tabs/vertical-tabs-light/</link>
+      <pubDate>Sat, 21 Apr 2018 16:27:32 +0200</pubDate>
+      
+      <guid>https://hanzlo.github.io/vertical-tabs/vertical-tabs-light/</guid>
+      <description>Home Profile Messages Settings     # First Handle     1 Mark @mdo   2 Jacob @fat   3 Larry the Bird @fat       # First Handle     1 Mark @mdo   2 Jacob @fat   3 Larry the Bird @fat       # First Handle     1 Mark @mdo   2 Jacob @fat   3 Larry the Bird @fat       # First Handle     1 Mark @mdo   2 Jacob @fat   3 Larry the Bird @fat           HTML  CSS  JavaScript   Home Profile Messages Settings     # First Handle     1 Mark @mdo   2 Jacob @fat   3 Larry the Bird @fat       # First Handle     1 Mark @mdo   2 Jacob @fat   3 Larry the Bird @fat       # First Handle     1 Mark @mdo   2 Jacob @fat   3 Larry the Bird @fat       # First Handle     1 Mark @mdo   2 Jacob @fat   3 Larry the Bird @fat             COPY CODE    body { background-color:#f7f7f7!</description>
+    </item>
+    
+    <item>
+      <title>Vertical Tabs Styled</title>
+      <link>https://hanzlo.github.io/vertical-tabs/vertical-tabs-default-styled/</link>
+      <pubDate>Sat, 21 Apr 2018 16:27:32 +0200</pubDate>
+      
+      <guid>https://hanzlo.github.io/vertical-tabs/vertical-tabs-default-styled/</guid>
+      <description>Home Profile Messages Settings   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  Lorem Ipsum is simply dummy text of the printing and typesetting industry.</description>
+    </item>
+    
+  </channel>
+</rss>

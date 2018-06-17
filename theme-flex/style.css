@@ -353,33 +353,7 @@ article section.page {
     margin-top: 4rem; }
   article section.page h2 {
     margin-top: 3rem; }
-  article section.page table {
-    width: 100%;
-    margin-bottom: 2em;
-    border-collapse: collapse;
-    border-spacing: 0;
-    border: 1px solid #e6e6e6; }
-    article section.page table th,
-    article section.page table td {
-      padding: 0.25rem 0.75rem; }
-    article section.page table th {
-      padding: 0.5rem;
-      text-transform: uppercase;
-      vertical-align: middle;
-      text-align: center;
-      font-weight: 800;
-      background: #f6f6f6;
-      color: black;
-      border-bottom: 2px solid #e5e5e5; }
-    article section.page table td {
-      padding: 0.5rem;
-      vertical-align: middle;
-      border-bottom: 1px solid #e5e5e5;
-      border: 1px solid #e6e6e6;
-      color: #323232; }
-    article section.page table td:first-child code {
-      background-color: transparent;
-      padding: 0; }
+  
   article section.page img {
     border: 0;
     max-width: 100%;
@@ -399,7 +373,7 @@ article section.page {
       margin: 0 !important;
       vertical-align: bottom; }
   article section.page code {
-    font-family: "RobotoMono", monospace; }
+    font-family: "Montserrat", monospace; }
   article section.page p > code,
   article section.page li code,
   article section.page table code {

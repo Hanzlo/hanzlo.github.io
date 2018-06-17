@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body a,
+body .btn {
+    -moz-transition: all 0.3s !important;
+    -o-transition: all 0.3s !important;
+    -webkit-transition: all 0.3s !important;
+    transition: all 0.3s !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.pills-container {
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #ffffff !important;
+    background-color: #3e5871 !important;
+    font-weight: 500 !important;
+    border-right: solid 3px #f15759 !important;
+    border-radius: 0px !important;
+}
+
+.nav-pills>a {
+    color: #c8c8c8 !important;
+    font-weight: 500 !important;
+}
+
+.tab-pane {
+    color: #777777 !important;
+    font-family: 'Montserrat' !important;
+}
+
+.table-dark {
+    color: #fff !important;
+    background-color: #3e5871 !important;
+}

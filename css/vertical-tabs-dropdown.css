@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+    body {
+        background-color: rgb(245, 245, 245)!important;
+        font-family: 'Montserrat', sans-serif!important;
+    }
+
+    body a,
+    body .btn {
+        -moz-transition: all 0.3s!important;
+        -o-transition: all 0.3s!important;
+        -webkit-transition: all 0.3s!important;
+        transition: all 0.3s!important;
+        font-family: 'Montserrat', sans-serif!important;
+    }
+
+    .pills-container {
+        padding: 2%!important;
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        color: #353535!important;
+        background-color: #ffffff!important;
+        font-weight: 600!important;
+    }
+
+    .nav-pills .nav-link {
+        color: #353535!important;
+        background-color: #ffffff!important;
+        font-weight: 600!important;
+        border-radius: 0px!important;
+    }
+
+    .nav-pills {
+        padding-bottom: 15px!important;
+    }
+
+    .nav-link {
+        display: block!important;
+        padding: .5rem 0rem!important;
+        border-bottom: solid 2px #f39f00!important;
+    }
+
+    .dropdown-menu {
+        color: #212529!important;
+        background-color: #fff!important;
+        border: 1px solid rgba(0, 0, 0, 0.12)!important;
+        border-top: 3px #f39f00 solid !important;
+        margin-top: 15px!important;
+    }
+
+    .dropdown-item.active,
+    .dropdown-item:active {
+        color: #fff!important;
+        background-color: #f39f00!important;
+    }
+
+    .dropdown-item {
+        color: #212529!important;
+        font-weight: 500!important;
+    }
+
+    .dropdown-menu:before {
+        border-bottom: 12px solid #f39f00!important;
+    }
+
+    .dropdown-menu:before {
+        display: block!important;
+        content: ''!important;
+        position: absolute!important;
+        right: 0!important;
+        top: 0!important;
+        left: 10px!important;
+        bottom: auto!important;
+        -webkit-transform: translate(0, -100%)!important;
+        -ms-transform: translate(0, -100%)!important;
+        transform: translate(0, -100%)!important;
+        width: 0!important;
+        height: 0!important;
+        border-right: 10px solid transparent!important;
+        border-bottom: 12px solid #f39f00!important;
+        border-left: 10px solid transparent!important;
+    }
+
+    .box-shadow {
+        border-top: 1px solid #f2f2f2!important;
+        -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15)!important;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15)!important;
+        background-color: #ffffff!important;
+    }
+
+    .table>thead {
+        border-bottom: solid 1px #efefef!important;
+    }
