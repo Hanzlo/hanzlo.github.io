@@ -67,6 +67,7 @@ h1, h2, h3 {
      transition: all linear 0.16s;
      font-weight: 600;
      border-radius: 2px;
+     text-align: center;
  }
  .dark-bg {
      background-color: rgb(51, 1, 1);
@@ -152,4 +153,38 @@ footer {
 .footer-links li{
     margin-bottom: 1rem;
     
+}
+
+@media Screen and (min-width:769px) {
+    .navbar .navbar-collapse {
+        margin-left: auto;
+    }
+}
+@media Screen and (max-width:768px) {
+    .navbar-collapse {
+        width: 100%;
+    }
+    .navbar {
+        box-shadow: 2px 2px 2px black;
+    }
+    .main-button {
+   
+        display: block;
+        text-align: center;
+    }
+    .main-cover h1 {
+        font-size: 2rem;
+    }
+    .section-meni li.nav-item {
+        background: white;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        width: 100%;
+        display: block;
+    }
+    .section-meni .nav-pills .nav-link {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
 }
