@@ -1,3 +1,6 @@
 [submodule "testNeet"]
 	path = testNeet
 	url = https://github.com/Hanzlo/testNeet.git
+[submodule "oblutak-web-stranica-19-02-2024-LaticaS"]
+	path = oblutak-web-stranica-19-02-2024-LaticaS
+	url = https://github.com/Trokut-Neet-Akademija-4-0/oblutak-web-stranica-19-02-2024-LaticaS.git
