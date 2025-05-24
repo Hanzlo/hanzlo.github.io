@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEET Akademija Šibenik - Frontend Developeri</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #6c757d;
+            --light-color: #f8f9fa;
+            --dark-color: #343a40;
+            --card-bg: #ffffff;
+            --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            --border-radius: 12px;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-color: var(--light-color);
+            color: var(--dark-color);
+            line-height: 1.6;
+        }
+
+        .app-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: var(--secondary-color);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .portfolio-card {
+            background-color: var(--card-bg);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .portfolio-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-image-link {
+            display: block; /* Osigurava da link zauzima prostor slike */
+            text-decoration: none;
+        }
+
+        .card-image-placeholder {
+            width: 100%;
+            height: 180px;
+            background-color: var(--secondary-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 600;
+            transition: opacity 0.3s ease;
+        }
+
+        .card-image-link:hover .card-image-placeholder {
+            opacity: 0.85; /* Blagi efekt na hover slike */
+        }
+
+        /* Za prave slike, koristili biste:
+        .card-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block; // Važno za img unutar <a>
+            transition: opacity 0.3s ease;
+        }
+        .card-image-link:hover .card-image {
+            opacity: 0.85;
+        }
+        */
+
+        .card-content {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-title-link {
+            text-decoration: none;
+            color: var(--dark-color); /* Boja naslova */
+            display: block; /* Da bi h3 unutar linka bio pravilno pozicioniran */
+        }
+
+        .card-title-link h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 1.4rem;
+            transition: color 0.3s ease;
+        }
+
+        .card-title-link:hover h3 {
+            color: var(--primary-color); /* Promjena boje naslova na hover */
+        }
+
+        .card-content p {
+            font-size: 0.9rem;
+            color: var(--secondary-color);
+            flex-grow: 1;
+            margin-bottom: 20px;
+        }
+
+        .portfolio-link-button { /* Preimenovano da se razlikuje od ostalih linkova */
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            text-align: center;
+            transition: background-color 0.3s ease;
+            margin-top: auto;
+        }
+
+        .portfolio-link-button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: var(--secondary-color);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <h1>Upoznajte naše Frontend Developere</h1>
+            <p>
+                Dobrodošli na stranicu portfolija polaznika Frontend Developer edukacije NEET Akademije u Šibeniku!
+                Ovdje možete vidjeti radove naših talentiranih polaznika koji su marljivo učili i stekli vještine
+                potrebne za kreiranje modernih i responzivnih web aplikacija. Pregledajte njihove projekte i
+                uvjerite se u njihovu kreativnost i tehničko znanje.
+            </p>
+        </header>
+
+        <main>
+            <div id="portfolioGrid" class="portfolio-grid">
+                <!-- Kartice polaznika će biti dinamički dodane ovdje -->
+            </div>
+        </main>
+
+        <footer>
+            <p>© <span id="currentYear"></span> NEET Akademija Šibenik. Sva prava pridržana.</p>
+        </footer>
+    </div>
+
+    <script>
+        const polaznici = [
+            {
+                ime: "Mateo B.",
+                url: "https://markobrr.github.io/",
+                opis: "Entuzijastični developer s fokusom na čisti kod i intuitivni UX. Strastven prema novim tehnologijama.",
+                // slika: "url_do_slike_marka.jpg"
+            },
+            {
+                ime: "Luka J.",
+                url: "https://lukajuric1998.github.io",
+                opis: "Kreativni problem-solver koji voli pretvarati ideje u funkcionalne web stranice. Uvijek spreman za učenje.",
+                // slika: "url_do_slike_luke.jpg"
+            },
+            {
+                ime: "Duje S.",
+                url: "https://dujes-a.github.io/",
+                opis: "Posvećen detaljima i performansama. Voli raditi na projektima koji donose stvarnu vrijednost korisnicima.",
+                // slika: "url_do_slike_duje.jpg"
+            },
+            {
+                ime: "Lovre P.",
+                url: "https://lovre-p.github.io/",
+                opis: "Frontend developer s okom za dizajn i strašću za stvaranjem interaktivnih korisničkih sučelja.",
+                // slika: "url_do_slike_lovre.jpg"
+            },
+            {
+                ime: "Loren K.",
+                url: "https://Loren377.github.io",
+                /* napiši neki opis */
+                opis: "Frontend developer s okom za dizajn i strašću za stvaranjem interaktivnih korisničkih sučelja.",
+                // slika: "url_do_slike_lovre.jpg"
+            }
+
+        ];
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const portfolioGrid = document.getElementById('portfolioGrid');
+            const currentYearSpan = document.getElementById('currentYear');
+            currentYearSpan.textContent = new Date().getFullYear();
+
+            if (polaznici.length === 0) {
+                portfolioGrid.innerHTML = "<p>Trenutno nema dostupnih portfolija polaznika.</p>";
+                return;
+            }
+
+            polaznici.forEach(polaznik => {
+                const card = document.createElement('div');
+                card.classList.add('portfolio-card');
+
+                // --- Klikabilna Slika/Placeholder ---
+                const imageLink = document.createElement('a');
+                imageLink.href = polaznik.url;
+                imageLink.target = '_blank';
+                imageLink.rel = 'noopener noreferrer';
+                imageLink.classList.add('card-image-link');
+
+                // Placeholder za sliku
+                const imagePlaceholder = document.createElement('div');
+                imagePlaceholder.classList.add('card-image-placeholder');
+                imagePlaceholder.textContent = polaznik.ime.split(' ').map(n => n[0]).join(''); // Inicijali
+
+                // Ako imate prave slike, koristite:
+                // const imageElement = document.createElement('img');
+                // imageElement.classList.add('card-image');
+                // imageElement.src = polaznik.slika || 'default-avatar.png'; // fallback slika
+                // imageElement.alt = polaznik.ime;
+                // imageLink.appendChild(imageElement);
+
+                imageLink.appendChild(imagePlaceholder);
+                card.appendChild(imageLink);
+
+                // --- Sadržaj kartice ---
+                const cardContent = document.createElement('div');
+                cardContent.classList.add('card-content');
+
+                // --- Klikabilni Naslov ---
+                const nameLink = document.createElement('a');
+                nameLink.href = polaznik.url;
+                nameLink.target = '_blank';
+                nameLink.rel = 'noopener noreferrer';
+                nameLink.classList.add('card-title-link');
+
+                const nameElement = document.createElement('h3');
+                nameElement.textContent = polaznik.ime;
+                nameLink.appendChild(nameElement); // Stavljamo H3 unutar linka
+
+                const descriptionElement = document.createElement('p');
+                descriptionElement.textContent = polaznik.opis || "Predani frontend developer spreman za nove izazove.";
+
+                const buttonLinkElement = document.createElement('a');
+                buttonLinkElement.href = polaznik.url;
+                buttonLinkElement.textContent = 'Pogledaj Portfolio';
+                buttonLinkElement.classList.add('portfolio-link-button');
+                buttonLinkElement.target = '_blank';
+                buttonLinkElement.rel = 'noopener noreferrer';
+
+                cardContent.appendChild(nameLink); // Dodajemo link s naslovom
+                cardContent.appendChild(descriptionElement);
+                cardContent.appendChild(buttonLinkElement);
+
+                card.appendChild(cardContent);
+                portfolioGrid.appendChild(card);
+            });
+        });
+    </script>
+
+</body>
+</html>
